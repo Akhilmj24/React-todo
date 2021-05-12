@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+.home {
+  background-color: #0c0238;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 5rem;
+}
+.main-conatiner input {
+  border: none;
+  height: 2rem;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #210c80c0;
+  width: 40%;
+  outline: none;
+  color: aliceblue;
+  padding-left: 0.5rem;
+  font-size: medium;
+  letter-spacing: 1px;
+}
+.main-conatiner button {
+  border: none;
+  letter-spacing: 1px;
+  font-size: medium;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #210c80c0;
+  height: 2rem;
+  padding-right: 0.5rem;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: bold;
+}
+.table-conatiner {
+  margin-left: 2rem;
+}
+.table-conatiner ul {
+  list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+.msg {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(211, 67, 67, 0.795);
+ font-size: 40px;
+  font-family: 'Unica One', cursive;
+}

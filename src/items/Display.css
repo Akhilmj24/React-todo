@@ -1,0 +1,37 @@
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.list{
+    display: flex;
+    margin: 5px;
+   width: 40%;
+   background-color:#190a58c0;
+   justify-content: space-between;
+   padding: 10px;
+   height: 3rem;
+   transition: 1s ease-in-out;
+}
+.list h5{
+color: white;
+font-weight: bold;
+letter-spacing: 0.5px;
+margin-top: 4px;
+font-size: medium;
+}
+.list button{
+    font-weight: bold;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.list:hover{
+  
+    background-color: rgba(10, 10, 131, 0.685);
+}
